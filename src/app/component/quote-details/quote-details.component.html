@@ -20,18 +20,38 @@
 
       <div class="col">
 
-        <button class="btn btn-outline-success" (click)='upvote()'>Upvote</button>
+        <button class="btn btn-outline-warning" (click)='upvote()'>   
+          
+          <i class="far fa-thumbs-up " (click)='upvote()'></i>
+          
+        </button>
+
+        <!-- <label for=""> up-vote</label> -->
+
+        
 
       </div>
 
       <div class="col">
-        <button class="btn btn-outline-warning" (click)='downvote()'>Downvote</button>
+
+        <button class="btn btn-outline-warning" (click)='downvote()'>   
+          
+          <i class="far fa-thumbs-down" (click)='downvote()'> </i>
+
+        </button>
+
 
       </div>
 
       <div class="col">
 
-        <button class="btn btn-danger " id="del" (click)='deleteQuote(true)'>Delete</button>
+        <button 
+
+        class="btn btn-danger " id="del" (click)='deleteQuote(true)'>
+
+          <i class="fas fa-trash-alt"  (click)='deleteQuote(true)'></i>
+
+        </button>
         
       </div>
 

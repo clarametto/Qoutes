@@ -8,3 +8,9 @@
     color: white;
     font-size: 20px;
 }
+.far{
+    color: greenyellow;
+}
+.far:hover{
+    color: whitesmoke;
+}

@@ -4,7 +4,7 @@
 
     <h1>Inspirational Quotes</h1>
 
-    <div class="mt-5 wit">
+    <div class="mt">
 
       <div *ngFor= 'let quote of quotes let i= index'>
 
@@ -19,11 +19,11 @@
     </div>
   </div>
 
-  <div class="col-md-4">
+  <div class="col">
 
     <h1>CREATE QUOTES</h1>
 
-    <!-- <app-form (add)="addedQuote($event)"></app-form> -->
+    <app-quote-form (add)="addedQuote($event)"></app-quote-form>
 
 
   </div>

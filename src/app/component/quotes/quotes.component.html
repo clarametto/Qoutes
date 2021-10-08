@@ -1,29 +1,29 @@
 <div class="row">
 
-    <div class="col-md-7">
-  
-      <h2>Inspirational Quotes</h2>
-  
-      <!-- <div class="mt-5 wit">
-  
-        <div *ngFor= 'let quote of quotes let i= index'>
-  
-          <h2> {{quote.quote }} </h2>
-  
-  
-          <app-button *ngIf='quote' bind-quote='quote' (isRead)='quoteDelete($event,i)'>
-            
-          </app-button>
-        </div>
-      </div> -->
+  <div class="col-md-8">
+
+    <h1>Inspirational Quotes</h1>
+
+    <div class="mt-5 wit">
+
+      <div *ngFor= 'let quote of quotes let i= index'>
+
+        <h2> {{quote.quote }} </h2>
+
+
+        <!-- <app-button *ngIf='quote' bind-quote='quote' (isRead)='quoteDelete($event,i)'>
+          
+        </app-button> -->
+        
+      </div>
     </div>
-  
-    <div class="col-md-5">
-  
-      <h2>GENERATE QUOTES</h2>
-  
-      <!-- <app-form (add)="addedQuote($event)"></app-form> -->
-  
-  
-    </div>
-  
+  </div>
+
+  <div class="col-md-4">
+
+    <h1>CREATE QUOTES</h1>
+
+    <!-- <app-form (add)="addedQuote($event)"></app-form> -->
+
+
+  </div>

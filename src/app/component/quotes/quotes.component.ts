@@ -10,7 +10,7 @@ export class QuotesComponent implements OnInit {
 
   quotes:Quotes[]=[
 
-    new Quotes( " t doesn’t matter who you are, where you come from. The ability to triumph begins with you – always." , "Oprah Winfrey ", "Austia Macauley publisher", 0 , 0 , new Date ( 2015, 1 , 4) ),
+    new Quotes( " It doesn’t matter who you are, where you come from. The ability to triumph begins with you – always." , "Oprah Winfrey ", "Austia Macauley publisher", 0 , 0 , new Date ( 2015, 1 , 4) ),
     new Quotes( "Never crave to be known for someone you are not. Be who you are in the day and when the lights are off, remain true" , "Myles Munroe.", "Book genius publisher", 0 , 0 , new Date ( 1968, 6 , 10) ),
     new Quotes( "We delight in the beauty of the butterfly, but rarely admit the changes it has gone through to achieve that beauty." , "Maya Angelou", "Austia Macauley publisher", 0 , 0 , new Date ( 2020, 6 , 8) ),
     new Quotes( "If you’re having a bad day just remember that facial expressions speak louder than words.." , "cookie lylon", "Austia Macauley publisher", 0 , 0 , new Date ( 1968, 6 , 28) ),

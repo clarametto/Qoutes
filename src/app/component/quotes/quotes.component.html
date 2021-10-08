@@ -4,11 +4,11 @@
 
     <h1>Inspirational Quotes</h1>
 
-    <div class="mt">
+    <div class="container">
 
       <div *ngFor= 'let quote of quotes let i= index'>
 
-        <h2> {{ quote.quote }} </h2>
+        <h4 class="p-3"> {{ quote.quote }} </h4>
 
 
         <app-quote-details *ngIf='quote' bind-quote='quote' (isRead)='quoteDelete($event,i)'></app-quote-details>

@@ -5,3 +5,8 @@ a{
     font-size: 40px;
     color: black;
 }
+
+.fab:hover{
+    font-size: 60px;
+    color: yellowgreen;
+}

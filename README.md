@@ -1,6 +1,37 @@
 # Quotes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
+![Quotes](mag.jpeg)
+
+
+# Author :  [Clara Mettoh !](https://clarametto.github.io/My-PORTFOLIO/)
+
+
+# Description : 
+This is an Angular web application where users can create quotes 
+
+
+
+
+## **Setup/Installation**
+
+* Clone the Repo.
+    * ```
+          git clone https://github.com/clarametto/Qoutes.git
+
+      ```
+
+     * ```
+          - Unzip the Clone file
+
+          - Navigate into the unzip file
+
+          -Open it on Terminal
+
+    
+           
+* Open the project on vs code or your desired editor.
+
+* Open the project on live Server.
 
 ## Development server
 
@@ -21,6 +52,35 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+
+
+
+
+
+##  **known Bugs**
+#### Does not validate if email input is not an email.
+#### Should come across any other issue share it with me via my,
+
+Personal
+
+[Email](clara.metto@student.moringaschool.com)
+
+## **Technology Used**
+ * HTML
+
+* CSS
+
+* Javascript
+
+* TypeScript
+
+
+## **License**
+
+#### Mt [**License**](https://choosealicense.com/licenses/mit/)
+
+Copyright (c) 2021 [claramettoh!](https://clarametto.github.io/My-PORTFOLIO/)
 
 ## Further help
 

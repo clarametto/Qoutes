@@ -21,8 +21,12 @@
       <div class="col">
 
         <button class="btn btn-outline-success" (click)='upvote()'>   
+
+          <label for=""> up-vote ~ </label> 
+
           
           <i class="far fa-thumbs-up " (click)='upvote()'></i>
+
           
         </button>
 
@@ -35,6 +39,9 @@
       <div class="col">
 
         <button class="btn btn-outline-warning" (click)='downvote()'>   
+
+          <label for=""> Down-vote ~ </label> 
+
           
           <i class="far fa-thumbs-down" (click)='downvote()'> </i>
 
@@ -48,6 +55,9 @@
         <button 
 
         class="btn btn-danger " id="del" (click)='deleteQuote(true)'>
+
+        <label for=""> Delete ~ </label> 
+
 
           <i class="fas fa-trash-alt"  (click)='deleteQuote(true)'></i>
 

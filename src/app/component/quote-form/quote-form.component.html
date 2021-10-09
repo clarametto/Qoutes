@@ -1,21 +1,24 @@
-<!-- <form (ngSubmit)='addQuote() ;quoteForm.resetForm({})' #quoteForm='ngForm'> -->
+<form (ngSubmit)='addQuote() ;quoteForm.resetForm({})' #quoteForm='ngForm'>
     <div class="form-group">
+      
       <label for="name">Publisher</label>
-      <!-- <input type="text" placeholder="Your name here..." required class="form-control" id="name"
-        [(ngModel)]="newQuote.publisher" name="name" #name='ngModel' minlength="3"> -->
+      <input type="text" placeholder="Your name here..." required class="form-control" id="name"
+        [(ngModel)]="newQuote.publisher" name="name" #name='ngModel' minlength="3">
     </div>
+
     <div class="form-group">
       <label for="description">Quote</label>
 
-      <!-- <textarea class="form-control" placeholder="Type quote here..." id="quote" rows="2" required
-        [(ngModel)]="newQuote.quote" name="quote" #quote='ngModel'></textarea> -->
+      <textarea class="form-control" placeholder="Type quote here..." id="quote" rows="2" required
+        [(ngModel)]="newQuote.quote" name="quote" #quote='ngModel'></textarea>
   
     </div>
+
     <div class="form-group">
       <label for="name">Author</label>
-      <!-- <input type="text" placeholder="Enter Quote author here..." required class="form-control" id="author"
-        [(ngModel)]="newQuote.author" name="author" #author='ngModel'> -->
+      <input type="text" placeholder="Enter Quote author here..." required class="form-control" id="author"
+        [(ngModel)]="newQuote.author" name="author" #author='ngModel'>
     </div>
     <button type="submit" class="btn btn-sm btn-success">Add Quote</button>
-  <!-- </form> -->
+  </form>
   

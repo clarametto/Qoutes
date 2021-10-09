@@ -17,12 +17,8 @@ export class QuotesComponent implements OnInit {
 
   ]
 
-  addedQuote(quote){
-    let arraysize = this.quotes.length;
-    quote.id = arraysize+1;
-    quote.published = new Date(quote.published)
-    this.quotes.push(quote)
-  }
+
+  
   quoteDelete(isRead, index){
     if (isRead) {
       let toDelete = confirm(`Are you sure you want to delete this Quote?`)
@@ -31,6 +27,12 @@ export class QuotesComponent implements OnInit {
       }
 
     }
+  }
+  addedQuote(quote){
+    let arraysize = this.quotes.length;
+    quote.id = arraysize+1;
+    quote.published = new Date(quote.published)
+    this.quotes.push(quote)
   }
 
 

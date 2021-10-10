@@ -1,6 +1,6 @@
 # Quotes
 
-![Quotes](mag.jpeg)
+![Quotes](mg.jpeg)
 
 
 # Author :  [Clara Mettoh ](https://clarametto.github.io/My-PORTFOLIO/)

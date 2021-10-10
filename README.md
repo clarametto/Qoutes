@@ -3,11 +3,11 @@
 ![Quotes](mag.jpeg)
 
 
-# Author :  [Clara Mettoh !](https://clarametto.github.io/My-PORTFOLIO/)
+# Author :  [Clara Mettoh ](https://clarametto.github.io/My-PORTFOLIO/)
 
 
 # Description : 
-
+This is an Angular application that has inspirational quotes and allows users to delete and add their new quotes.
 
 
 

@@ -80,7 +80,7 @@ Personal
 
 #### Mt [**License**](https://choosealicense.com/licenses/mit/)
 
-Copyright (c) 2021 [claramettoh!](https://clarametto.github.io/My-PORTFOLIO/)
+Copyright (c) 2021 [claramettoh](https://clarametto.github.io/My-PORTFOLIO/)
 
 ## Further help
 

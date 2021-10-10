@@ -7,7 +7,7 @@
 
 
 # Description : 
-This is an Angular web application where users can create quotes 
+
 
 
 

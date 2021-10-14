@@ -10,6 +10,8 @@ import { QuotesComponent } from './component/quotes/quotes.component';
 import { QuoteDetailsComponent } from './component/quote-details/quote-details.component';
 import { QuoteFormComponent } from './component/quote-form/quote-form.component';
 import { FormsModule } from '@angular/forms';
+import { DaysPipe } from './days.pipe';
+import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { FormsModule } from '@angular/forms';
     FooterComponent,
     QuotesComponent,
     QuoteDetailsComponent,
-    QuoteFormComponent
+    QuoteFormComponent,
+    DaysPipe,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,

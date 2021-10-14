@@ -8,7 +8,10 @@
 
     <p id="detail">Up-vote: <span id="span">{{quote.upvote}}</span></p>
 
-    <p id="detail">Published:  <span id="span">{{quote.published}}</span></p>
+    <p id="detail">
+      Published:  <span id="span">{{quote.published|date}}</span> 
+      <button id="span" class=" text-end ml-5 btn btn-sm bg-secondary">{{quote.published|days}} </button> days ago.
+    </p>
 
 
 
@@ -72,5 +75,5 @@
 
   </div>
 
-  </div>
+</div>
 

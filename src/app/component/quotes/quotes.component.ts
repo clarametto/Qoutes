@@ -27,6 +27,9 @@ export class QuotesComponent implements OnInit {
       }
 
     }
+    
+  
+
   }
   addedQuote(quote){
     let arraysize = this.quotes.length;
@@ -35,6 +38,19 @@ export class QuotesComponent implements OnInit {
     this.quotes.push(quote)
   }
 
+  currentValue:number;
+  newValue:number;
+  counter:number;
+  highestVotes(){
+    this.currentValue = 0
+    this.newValue = 0
+
+    for(this.counter=0 ; this.counter < this.quotes.length; this.counter++) {
+      this.newValue = this.quotes[this.counter].upvote;
+      if(this.newValue > this.currentValue){this.currentValue = this.newValue}
+    }
+    return  this.currentValue
+  }
 
 
   constructor() { }

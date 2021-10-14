@@ -10,6 +10,9 @@
 This is an Angular application that has inspirational quotes and allows users to delete and add their new quotes.
 
 
+ng build --prod --base-href "https://clarametto.github.io/Qoutes/" 
+$ npx angular-cli-ghpages --dir=dist/Project-name
+
 
 
 ## **Setup/Installation**
